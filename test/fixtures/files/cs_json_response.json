@@ -1,0 +1,129 @@
+{
+  "metadata": {
+      "page": 0,
+      "total": 30,
+      "per_page": 20
+  },
+  "results": [
+      {
+          "latest.school.name": "University of Colorado Boulder",
+          "id": 126614,
+          "location.lat": 40.008781,
+          "location.lon": -105.270823
+      },
+      {
+          "latest.school.name": "University of Colorado Denver/Anschutz Medical Campus",
+          "id": 126562,
+          "location.lat": 39.745149,
+          "location.lon": -104.837722
+      },
+      {
+          "latest.school.name": "Colorado Technical University-Colorado Springs",
+          "id": 126827,
+          "location.lat": 38.894265,
+          "location.lon": -104.833928
+      },
+      {
+          "latest.school.name": "Colorado Media School",
+          "id": 443632,
+          "location.lat": 39.708979,
+          "location.lon": -105.077863
+      },
+      {
+          "latest.school.name": "Regis University",
+          "id": 127918,
+          "location.lat": 39.788175,
+          "location.lon": -105.030756
+      },
+      {
+          "latest.school.name": "Colorado Mesa University",
+          "id": 127556,
+          "location.lat": 39.080643,
+          "location.lon": -108.553275
+      },
+      {
+          "latest.school.name": "University of Colorado Colorado Springs",
+          "id": 126580,
+          "location.lat": 38.892735,
+          "location.lon": -104.800296
+      },
+      {
+          "latest.school.name": "Colorado Northwestern Community College",
+          "id": 126748,
+          "location.lat": 40.081112,
+          "location.lon": -108.790048
+      },
+      {
+          "latest.school.name": "Colorado School of Mines",
+          "id": 126775,
+          "location.lat": 39.751443,
+          "location.lon": -105.223364
+      },
+      {
+          "latest.school.name": "Colorado School of Trades",
+          "id": 126784,
+          "location.lat": 39.74181,
+          "location.lon": -105.104174
+      },
+      {
+          "latest.school.name": "Colorado State University-Fort Collins",
+          "id": 126818,
+          "location.lat": 40.574805,
+          "location.lon": -105.080732
+      },
+      {
+          "latest.school.name": "Colorado Mountain College",
+          "id": 126711,
+          "location.lat": 39.54636,
+          "location.lon": -107.324441
+      },
+      {
+          "latest.school.name": "Colorado College",
+          "id": 126678,
+          "location.lat": 38.84886,
+          "location.lon": -104.822697
+      },
+      {
+          "latest.school.name": "Northeastern Junior College",
+          "id": 127732,
+          "location.lat": 40.637215,
+          "location.lon": -103.197329
+      },
+      {
+          "latest.school.name": "University of Northern Colorado",
+          "id": 127741,
+          "location.lat": 40.410855,
+          "location.lon": -104.692777
+      },
+      {
+          "latest.school.name": "Colorado Christian University",
+          "id": 126669,
+          "location.lat": 39.71388,
+          "location.lon": -105.09456
+      },
+      {
+          "latest.school.name": "Colorado State University Pueblo",
+          "id": 128106,
+          "location.lat": 38.30859,
+          "location.lon": -104.579033
+      },
+      {
+          "latest.school.name": "Intellitec College-Colorado Springs",
+          "id": 128179,
+          "location.lat": 38.832183,
+          "location.lon": -104.78721
+      },
+      {
+          "latest.school.name": "Western Colorado University",
+          "id": 128391,
+          "location.lat": 38.549936,
+          "location.lon": -106.919132
+      },
+      {
+          "latest.school.name": "Colorado School of Traditional Chinese Medicine",
+          "id": 381352,
+          "location.lat": 39.739437,
+          "location.lon": -104.960118
+      }
+  ]
+}

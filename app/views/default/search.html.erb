@@ -1,0 +1,26 @@
+<turbo-frame id="results">
+  <p class="justify-center text-center content-center mb-4">
+    <% if @total_results_count == 0 %>
+      There were no results for "<%= @query %>"
+    <% else %>
+      Displaying <%= @results_per_page %> of <%= @total_results_count %> Results for "<%= @query %>"
+    <% end %>
+  </p>
+  <ul class="divide-y-2">
+    <% for school in @schools %>
+      <li class="justify-center text-center content-center pt-6 pb-6">
+        <h4 class="font-bold mt-0"><%= school['latest.school.name'] %></h4>
+        <div class="google-map">
+          <iframe
+            width="450"
+            height="250"
+            frameborder="0" style="border:0"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="<%= google_maps_url(school) %>"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </li>
+    <% end %>
+  </ul>
+</turbo-frame>
