@@ -15,4 +15,8 @@ module DefaultHelper
     params.merge!(center: [lat, long].join(', ')) unless lat.nil? && long.nil?
     "https://www.google.com/maps/embed/v1/place?#{params.to_query}"
   end
+
+  def calculate_results_count(results_per_page, total_results_count)
+    total_results_count < results_per_page ? total_results_count : results_per_page
+  end
 end

@@ -1,9 +1,10 @@
 <turbo-frame id="results">
+  <%= render partial: 'spinner' %>
   <p class="justify-center text-center content-center mb-4">
     <% if @total_results_count == 0 %>
       There were no results for "<%= @query %>"
     <% else %>
-      Displaying <%= @results_per_page %> of <%= @total_results_count %> Results for "<%= @query %>"
+      Displaying <%= calculate_results_count(@results_per_page, @total_results_count) %> of <%= @total_results_count %> Results for "<%= @query %>"
     <% end %>
   </p>
   <ul class="divide-y-2">
