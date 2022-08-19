@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# wrapper class around the api.data.gov colllege
+# wrapper class around the api.data.gov college
 # scorecard api
 class CollegeSearchApi
   attr_reader :api_key
